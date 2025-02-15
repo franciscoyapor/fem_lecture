@@ -21,29 +21,30 @@ Francisco A. Yapor Genao
   - **TRG** - CAE Transmission Engineer (2021 - 2022)
   - **Reliance One, Inc.** - CAE Supervisor (2022 - 2023)
   - **MANN+HUMMEL** - Sim. Eng. (2023 - Present)
---
-
-## CAE Engineer
-- 🖥️ **Simulation Expert**: Predicts product behavior and performance.
-- 📈 **Data Analysis**: Identify potential issues and suggest design optimizations.
-- 🧪 **Testing Correlation**: Validates simulations with physical tests & documents findings in technical reports.
-- 🚀 **Continuous Improvement**: Explores new simulation methods to enhance the process and product performance.
+  --
+  ## CAE Engineer
+    - 🖥️ **Simulation Expert**: Predicts product behavior and performance.
+    - 📈 **Data Analysis**: Identify potential issues and suggest design optimizations.
+    - 🧪 **Testing Correlation**: Validates simulations with physical tests & documents findings in technical reports.
+    - 🚀 **Continuous Improvement**: Explores new simulation methods to enhance the process and product performance.
 ---
 
-## 1. Defining the Problem
-- **Understand the Objectives**  
-  - What are we trying to solve? What key decisions will this simulation inform? 
-- **Gather Inputs**  
-  - CAD models, properties, boundary conditions. Test data. Customer or internal requirements  
-- **Simulation Approach** 
-  - **Linear vs. Nonlinear** analysis. **Static vs. Dynamic** response. **FEA vs. CFD vs. MBD**
---
-
-## 2. Pre-Processing
-- **Geometry Cleanup**: Simplify CAD, defeature, and idealize.
-- **Material Assignment**: **Experimental data** when possible. Consider **temperature-dependent behavior**.
-- **Mesh Generation**: **Element Type Selection**: Trias vs. Quads, Shell vs. Solid, 1st order vs. 2nd order.
-  - **Mesh Refinement**: Fine where needed, coarse elsewhere. Add **Quality Checks**: Aspect Ratio, Jacobian, etc. 
+  ## 1. Defining the Problem
+  - **Understand the Objectives**  
+    - What are we trying to solve? **FEA vs. CFD vs. MBD**
+    - What key decisions will this simulation inform? 
+  - **Gather Inputs**  
+    - CAD models, properties, boundary conditions.
+    - Test data and customer/internal requirements.
+  - **Simulation Approach** 
+    - **Linear vs. Nonlinear** analysis.
+    - **Static vs. Dynamic** response.
+  --
+  ## 2. Pre-Processing
+  - **Geometry Cleanup**: Simplify CAD, defeature, and idealize.
+  - **Material Assignment**: **Experimental data** when possible. Consider **P(T)**.
+  - **Mesh Generation**: **Element Type Selection**: Trias vs. Quads, Shell vs. Solid, 1st order vs. 2nd order.
+    - **Mesh Refinement**: Fine where needed, coarse elsewhere. Add **Quality Checks**: Aspect Ratio, Jacobian, etc. 
 --
 
 ## 2. Pre-Processing - Continued
