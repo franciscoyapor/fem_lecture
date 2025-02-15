@@ -1,12 +1,49 @@
-# From Start to Finish: The FEA Workflow in Industry
+# FEA Workflow in Industry
 Francisco A. Yapor Genao
 CAE/Simulation Engineer | PhD Candidate
 ---
 
 ## Introduction
-- Simulation is a **key decision-making tool** in engineering.  
-- Industry FEA is **more than just running a solver**—it’s about **problem definition, setup, validation, and communication**.  
-- Today, I’ll walk you through **how a real-world FEA project progresses** in industry.  
+- Computer simulations are a **key decision-making tool** in engineering.
+- Industry CAE is **more than just running a solver**—it’s about **problem resolution, validation, and communication**.  
+- I’ll walk you through **how a real-world CAE project progresses** in industry.  
+---
+
+## About Me
+- I am a CAE Engineer with experience in mechanical and aeronautical engineering.
+- Passionate about developing new methods and solving complex engineering problems.
+--
+## Educational Journey
+- **B.Sc. in Aeronautical Engineering**  (2008 - 2012)
+- **M.Sc. in Mechanical Engineering**    (2016 - 2018)
+- **Ph.D. in Mechanical Engineering**    (In Progress)
+
+--
+## Professional Experience
+- **Henniges Automotive**
+  - Engineering Summer Intern (2011)
+  - Associate Product Engineer (2012 - 2013)
+  - Associate CAE Engineer (2013 - 2016)
+  - CAE Engineer (2016 - 2020)
+- **TRG** - CAE Transmission Engineer (2021 - 2022)
+- **Reliance One, Inc.** - CAE Supervisor (2022 - 2023)
+- **MANN+HUMMEL** - Sim. Eng. (2023 - Present)
+--
+## Product Engineer
+- Owns the product and defines product specifications
+- Provides manufacturing support and testing/validation
+- Continuous improvement and product management
+- Documentation and compliance
+--
+## CAE Engineer
+
+- 🖥️ **Simulation Expert**: Performs computer simulations to predict product behavior and performance.
+- 📈 **Data Analysis**: Analyzes simulation results to identify potential issues and suggest design optimization.
+- 🧪 **Testing Correlation**: Validates simulations by comparing them with physical test data to ensure model accuracy.
+--
+- 🛠 **Design Support**: Collaborates with product engineers to integrate simulation feedback into design improvements.
+- 📋 **Detailed Reporting**: Documents findings in technical reports, highlighting critical insights and recommendations for product development.
+- 🚀 **Continuous Improvement**: Researches new simulation tools and methods to enhance the simulation process and product performance.
 
 ---
 
