@@ -1,9 +1,6 @@
----
-
 # From Start to Finish: The FEA Workflow in Industry
-### Francisco A. Yapor Genao
-*CAE/Simulation Engineer | PhD Candidate*
-
+Francisco A. Yapor Genao
+CAE/Simulation Engineer | PhD Candidate
 ---
 
 ## Introduction
