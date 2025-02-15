@@ -44,16 +44,15 @@ Francisco A. Yapor Genao
 ## 2. Pre-Processing
 - **Geometry Cleanup**: Simplify CAD, defeature, and idealize.
 - **Material Assignment**: **Experimental data** when possible. Consider **temperature-dependent behavior**.
-- **Mesh Generation**:
-  - **Element Type Selection**: Trias vs. Quads, Hex vs. Tet, Shell vs. Solid, 1st order vs. 2nd order.
-  - **Mesh Refinement**: Fine where stress is expected to be high, coarse elsewhere. Add **Quality Checks**: Aspect Ratio, Jacobian, etc.  
+- **Mesh Generation**: **Element Type Selection**: Trias vs. Quads, Shell vs. Solid, 1st order vs. 2nd order.
+  - **Mesh Refinement**: Fine where needed, coarse elsewhere. Add **Quality Checks**: Aspect Ratio, Jacobian, etc. 
 --
 
-## 3. Defining Boundary Conditions & Loads
+## 2. Pre-Processing - Continued
 - **Constraints & Contacts**: Fixed, pinned, frictional, bonded, sliding contacts.
 - **External Loads**: Forces, pressures, accelerations, thermal effects.
 - **Initial Conditions**: Bolt preloads, assembly state vs. manufactured state.
-> **Best Practice:** Keep it realistic! Over-constraining leads to false stiffness, while missing constraints leads to rigid body motion.
+> **Best Practice:** Keep it realistic! Over-constraining = ⚠️ stiffness, while missing constraints leads to rigid body motion 🚀.
 --
 
 ## 4. Solving – Running the Simulation
