@@ -55,14 +55,14 @@ Francisco A. Yapor Genao
 > **Best Practice:** Keep it realistic! Over-constraining = ⚠️ stiffness, while missing constraints leads to rigid body motion 🚀.
 --
 
-## 4. Solving – Running the Simulation
+## 4. Solving
 - **Solver Selection**: Implicit vs. Explicit and Direct vs. Iterative.
 - **Convergence Checks**: Watch for **divergence or ill-conditioning** of the matrices.
 - **Computational Efficiency**: Run small tests before committing to large, expensive solves. 
 > **Industry Tip:** **Always run a frequency extraction debugging job!** Why?
 --
 
-## 5. Post-Processing – Interpreting Results
+## 5. Post-Processing
 - **What to Look For?**: Stress distributions, strain maps, deformations. Reaction forces, contact pressures, buckling modes.
 - **Failure Criteria**: Von Mises stress, Tresca, Fatigue Life?
 - **Comparing Against Reality**: Does the model **match test data**? Are results **physically reasonable**?  
@@ -75,23 +75,23 @@ Francisco A. Yapor Genao
 - **Recommendations**: Should the design be modified? Are further analyses needed? How confident are you on the results?
 ---
 
-## Common Industry Challenges & How to Handle Them
-- **Poor mesh quality?** → Check aspect ratios, refine critical areas  
-- **Diverging solution?** → Adjust solver settings, damping, time step  
-- **Unrealistic results?** → Verify loads, constraints, material data  
+## Common Industry Challenges
+- **Poor mesh quality?** → Check aspect ratios, refine critical areas.
+- **Diverging solution?** → Check mesh, contacts, and BCs. Last resort, adjust solver settings.
+- **Unrealistic results?** → Verify loads, constraints, material data
 - **Model too big?** → Use **submodeling** or **symmetry** to reduce size  
 --
 
-## Real-World Example – A Case Study
-- (Insert an actual past project example – e.g., a structural or thermal FEA study)  
+## A Case Study
+- Description
 - Show screenshots of **meshing, results, validation process**  
 - Highlight **challenges and solutions**  
 ---
 
 ## Final Thoughts
-- **FEA is a powerful tool, but only when used correctly.**  
-- **Always question your results**—garbage in, garbage out.  
-- **Never rely on FEA alone**—testing and engineering judgment matter!  
+- **FEA is a powerful tool, but only when used correctly.**
+- **Always question your results**—garbage in, garbage out.
+- **Never rely on FEA alone**—testing and engineering judgment matter!
 ---
 
 ## Q&A – Let’s Discuss!
