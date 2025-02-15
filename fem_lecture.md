@@ -1,6 +1,6 @@
 # FEA Workflow in Industry
 Francisco A. Yapor Genao
-CAE/Simulation Engineer | PhD Candidate
+###CAE/Simulation Engineer | PhD Candidate
 ---
 
 ## Introduction
