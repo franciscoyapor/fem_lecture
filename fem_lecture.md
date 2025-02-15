@@ -7,22 +7,20 @@ Francisco A. Yapor Genao
 - Computer simulations are a **key decision-making tool** in engineering.
 - Industry CAE is **more than just running a solver**—it’s about **problem resolution, validation, and communication**.  
 - I’ll walk you through **how a real-world CAE project progresses** in industry. 
-
 --
-## About Me
-- CAE Engineer with experience in mechanical and aeronautical engineering.
-- Passionate about developing new methods and solving complex engineering problems.
---
-
-## Professional Experience
-- **Henniges Automotive**
-  - Engineering Summer Intern (2011)
-  - Associate Product Engineer (2012 - 2013)
-  - Associate CAE Engineer (2013 - 2016)
-  - CAE Engineer (2016 - 2020)
-- **TRG** - CAE Transmission Engineer (2021 - 2022)
-- **Reliance One, Inc.** - CAE Supervisor (2022 - 2023)
-- **MANN+HUMMEL** - Sim. Eng. (2023 - Present)
+  ## About Me
+  - CAE Engineer with experience in mechanical and aeronautical engineering.
+  - Passionate about developing new methods and solving complex engineering problems.
+  --
+  ## Professional Experience
+  - **Henniges Automotive**
+    - Engineering Summer Intern (2011)
+    - Associate Product Engineer (2012 - 2013)
+    - Associate CAE Engineer (2013 - 2016)
+    - CAE Engineer (2016 - 2020)
+  - **TRG** - CAE Transmission Engineer (2021 - 2022)
+  - **Reliance One, Inc.** - CAE Supervisor (2022 - 2023)
+  - **MANN+HUMMEL** - Sim. Eng. (2023 - Present)
 --
 
 ## CAE Engineer
