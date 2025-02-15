@@ -1,24 +1,19 @@
 # FEA Workflow in Industry
 Francisco A. Yapor Genao
-###CAE/Simulation Engineer | PhD Candidate
+#### CAE/Simulation Engineer | PhD Candidate
 ---
 
 ## Introduction
 - Computer simulations are a **key decision-making tool** in engineering.
 - Industry CAE is **more than just running a solver**—it’s about **problem resolution, validation, and communication**.  
 - I’ll walk you through **how a real-world CAE project progresses** in industry.  
----
+--
 
 ## About Me
 - I am a CAE Engineer with experience in mechanical and aeronautical engineering.
 - Passionate about developing new methods and solving complex engineering problems.
 --
-## Educational Journey
-- **B.Sc. in Aeronautical Engineering**  (2008 - 2012)
-- **M.Sc. in Mechanical Engineering**    (2016 - 2018)
-- **Ph.D. in Mechanical Engineering**    (In Progress)
 
---
 ## Professional Experience
 - **Henniges Automotive**
   - Engineering Summer Intern (2011)
@@ -29,101 +24,57 @@ Francisco A. Yapor Genao
 - **Reliance One, Inc.** - CAE Supervisor (2022 - 2023)
 - **MANN+HUMMEL** - Sim. Eng. (2023 - Present)
 --
-## Product Engineer
-- Owns the product and defines product specifications
-- Provides manufacturing support and testing/validation
-- Continuous improvement and product management
-- Documentation and compliance
---
+
 ## CAE Engineer
-
-- 🖥️ **Simulation Expert**: Performs computer simulations to predict product behavior and performance.
-- 📈 **Data Analysis**: Analyzes simulation results to identify potential issues and suggest design optimization.
-- 🧪 **Testing Correlation**: Validates simulations by comparing them with physical test data to ensure model accuracy.
---
-- 🛠 **Design Support**: Collaborates with product engineers to integrate simulation feedback into design improvements.
-- 📋 **Detailed Reporting**: Documents findings in technical reports, highlighting critical insights and recommendations for product development.
+- 🖥️ **Simulation Expert**: Predicts product behavior and performance.
+- 📈 **Data Analysis & 🛠 Design Support**: Identify potential issues and suggest design optimizations.
+- 🧪 **Testing Correlation & 📋 Detailed Reporting**: Validates simulations with physical tests & documents findings in technical reports.
 - 🚀 **Continuous Improvement**: Researches new simulation tools and methods to enhance the simulation process and product performance.
-
 ---
 
 ## 1. Project Kickoff – Defining the Problem
-- **Understand the Objective**  
-  - What are we trying to solve? (Strength, stiffness, fatigue, thermal, etc.)  
-  - What decisions will this simulation inform?  
+- **Understand the Objectives**  
+  - What are we trying to solve? What key decisions will this simulation inform? 
 - **Gather Inputs**  
-  - CAD models, material properties, boundary conditions  
-  - Test data for validation  
-  - Customer or internal requirements  
-- **Select the Right Simulation Approach**  
-  - **Linear vs. Nonlinear** analysis  
-  - **Static vs. Dynamic** response  
-  - **FEA vs. CFD vs. MBD**  
-
+  - CAD models, material properties, boundary conditions. Test data for validation. Customer or internal requirements  
+- **Select Appropriate Simulation Approach** 
+  - **Linear vs. Nonlinear** analysis. **Static vs. Dynamic** response. **FEA vs. CFD vs. MBD**
 ---
 
 ## 2. Pre-Processing – Preparing the Model
-- **Geometry Cleanup**  
-  - Simplify CAD (remove small features, holes, unnecessary parts)  
-  - Defeature and idealize (mid-surfacing, symmetry)  
-- **Material Assignment**  
-  - Use **experimental data** when possible, not just handbook values  
-  - Consider **temperature-dependent or anisotropic behavior**  
-- **Mesh Generation**  
-  - **Element Type Selection**: Hex vs. Tet, Shell vs. Solid  
-  - **Mesh Refinement**: Fine where stress is high, coarse elsewhere  
-  - **Aspect Ratio & Quality Checks**  
-
+- **Geometry Cleanup**: Simplify CAD (remove small features, holes, unnecessary parts) & Defeature and idealize (mid-surfacing, symmetry).
+- **Material Assignment**: Use **experimental data** when possible, not just handbook values. Consider **temperature-dependent behavior**.
+- **Mesh Generation**:
+  - **Element Type Selection**: Trias vs. Quads, Hex vs. Tet, Shell vs. Solid, 1st order vs. 2nd order.
+  - **Mesh Refinement**: Fine where stress is expected to be high, coarse elsewhere. Add **Quality Checks**: Aspect Ratio, Jacobian, etc.  
 ---
 
 ## 3. Defining Boundary Conditions & Loads
-- **Constraints & Contacts**  
-  - Fixed, pinned, frictional, bonded, sliding contacts  
-- **External Loads**  
-  - Forces, pressures, accelerations, thermal effects  
-- **Initial Conditions (if applicable)**  
-  - Preloads, dynamic states  
-
+- **Constraints & Contacts**: Fixed, pinned, frictional, bonded, sliding contacts.
+- **External Loads**: Forces, pressures, accelerations, thermal effects.
+- **Initial Conditions**: Bolt preloads, assembly state vs. manufactured state.
 > **Best Practice:** Keep it realistic! Over-constraining leads to false stiffness, while missing constraints leads to rigid body motion.
-
 ---
 
 ## 4. Solving – Running the Simulation
-- **Solver Selection**  
-  - Implicit vs. Explicit  
-  - Direct vs. Iterative  
-- **Convergence Checks**  
-  - Watch for **divergence or ill-conditioning**  
-- **Computational Efficiency**  
-  - Run small tests before committing to large, expensive solves  
-
-> **Industry Tip:** **Automation** (batch scripts, Python, etc.) saves **time and effort**.
+- **Solver Selection**: Implicit vs. Explicit and Direct vs. Iterative.
+- **Convergence Checks**: Watch for **divergence or ill-conditioning** of the matrices.
+- **Computational Efficiency**: Run small tests before committing to large, expensive solves. 
+> **Industry Tip:** **Always run a frequency extraction debugging job!** Why?
 
 ---
 
 ## 5. Post-Processing – Interpreting Results
-- **What to Look For?**  
-  - Stress distributions, strain maps, deformations  
-  - Reaction forces, contact pressures, buckling modes  
-- **Failure Criteria**  
-  - Von Mises stress, Tresca, Fatigue Life  
-  - Fracture mechanics, composite failure criteria  
-- **Comparing Against Reality**  
-  - Does the model **match test data**?  
-  - Are results **physically reasonable**?  
-
+- **What to Look For?**: Stress distributions, strain maps, deformations. Reaction forces, contact pressures, buckling modes.
+- **Failure Criteria**: Von Mises stress, Tresca, Fatigue Life?
+- **Comparing Against Reality**: Does the model **match test data**? Are results **physically reasonable**?  
+> **Industry Tips:** **Automation** (batch scripts, Python, etc.) saves **time and effort**. 
 ---
 
 ## 6. Reporting – Communicating the Findings
-- **Key Takeaways**  
-  - Keep reports **clear and to the point**  
-  - Focus on **design impact, not just raw numbers**  
-- **Visualization Matters**  
-  - Effective plots, contour maps, deformed shapes  
-- **Recommendations**  
-  - Should the design be modified?  
-  - Are further analyses needed?  
-
+- **Key Takeaways**: Keep reports **clear and to the point**. Focus on **design impact, not just raw numbers**.
+- **Visualization Matters**: Effective plots, contour maps, deformed shapes.
+- **Recommendations**: Should the design be modified? Are further analyses needed? How confident are you on the results?
 ---
 
 ## Common Industry Challenges & How to Handle Them
@@ -131,7 +82,6 @@ Francisco A. Yapor Genao
 - **Diverging solution?** → Adjust solver settings, damping, time step  
 - **Unrealistic results?** → Verify loads, constraints, material data  
 - **Model too big?** → Use **submodeling** or **symmetry** to reduce size  
-
 ---
 
 ## Real-World Example – A Case Study
