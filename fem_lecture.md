@@ -90,24 +90,24 @@ Francisco A. Yapor Genao
 
 ---
 ## A Case Study: Impact Resistance Evaluation
-### Problem Description
+# Problem Description
 - Customer requested a plastic underbody cover to withstand a **1000J rock impact** with limited packaging space.
 - Typical test is dropping a steel ball from a 6 or 7-ft height.
 
 --
-### Basic Principles: Hand-Calculations
+## Basic Principles: Hand-Calculations
 - To achieve 1000J, the required mass would be significant: \[ m = \frac{E}{gh} = \frac{1000 J}{(9.81 m/s^2)(1.83 m)} \approx 55.7 kg (~122.8 lbs) \]
 - Practically difficult to test due to the large ball mass and targeted impact location.
 - Proposed scenario: Obtain surface area of the cover, then use the impact strength of the plastic to estimate maximum impact energy.
 
 --
-### Simulation Results
+## Simulation Results
 - FEM simulations confirmed the hand calculations:
   - Predicted failure occurred between **250-350 J**.
   - Plastic cover shattered at significantly less than the requested 1000J.
 
 --
-### Customer Resolution
+## Customer Resolution
 - After demonstrating through hand-calculations and simulations, the customer agreed:
   - Revised design to include a steel plate ahead of the plastic component.
   - Steel plate absorbs the high energy impact; plastic cover withstands realistic residual energy.
