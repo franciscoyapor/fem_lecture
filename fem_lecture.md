@@ -89,10 +89,28 @@ Francisco A. Yapor Genao
 - **Model too big?** → Use **submodeling** or **symmetry** to reduce size  
 
 --
-## A Case Study
-- Description
-- Show screenshots of **meshing, results, validation process**  
-- Highlight **challenges and solutions**  
+## A Case Study: Impact Resistance Evaluation
+### Problem Description
+- Customer requested a plastic underbody cover to withstand a **1000J rock impact** with limited packaging space.
+
+### Initial Hand-Calculations
+- Impact Energy (E) calculation: \[ E = mgh \]
+- Initial scenario: 37-lb (~16.8 kg) steel ball dropped from 6 ft (~1.83 m): \[ E = (16.8 kg)(9.81 m/s^2)(1.83 m) \approx 301 J \]
+- To achieve 1000J, the required mass would be significantly higher: \[ m = \frac{E}{gh} = \frac{1000 J}{(9.81 m/s^2)(1.83 m)} \approx 55.7 kg (~122.8 lbs) \]
+- Practically difficult to test due to the large ball mass and targeted impact location.
+
+### Material Limitation
+- Maximum energy absorption based on plastic material impact strength and available surface area: ~250-350 J before failure.
+
+### Simulation Results
+- FEM simulations confirmed the hand calculations:
+  - Predicted failure occurred between **250-350 J**.
+  - Plastic cover shattered at significantly less than the requested 1000J.
+
+### Customer Resolution
+- After demonstrating through hand-calculations and simulations, the customer agreed:
+  - Revised design to include a steel plate ahead of the plastic component.
+  - Steel plate absorbs the high energy impact; plastic cover withstands realistic residual energy.
 
 ---
 ## Final Thoughts
