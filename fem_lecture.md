@@ -89,8 +89,8 @@ Francisco A. Yapor Genao
 - **Model too big?** → Use **submodeling** or **symmetry** to reduce size  
 
 ---
-## A Case Study: Impact Resistance Evaluation
-# Problem Description
+## Case Study: Impact Resistance Evaluation
+### Problem Description
 - Customer requested a plastic underbody cover to withstand a **1000J rock impact** with limited packaging space.
 - Typical test is dropping a steel ball from a 6 or 7-ft height.
 
